@@ -52,7 +52,31 @@ a {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1279px) {
+    .main_header {
+        margin: 0.25em 0 0 0;
+        font-size: 2.5em;
+    }
+
+    .logo {
+        width: 7.5em;
+    }
+
+    .basic_description {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 599px) {
+    .main_header {
+        margin: 0.25em 0 0 0;
+        font-size: 2em;
+    }
+
+    .logo {
+        width: 5em;
+    }
+
+    .basic_description {
+        font-size: 1em;
+    }
 }
