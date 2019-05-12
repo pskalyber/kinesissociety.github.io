@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    border: 0.125em solid Teal;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+}
+
+.main_header {
+    color: Lime;
+    font-weight: 900;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+.basic_description {
+    color: Coral;
+    margin-top: 0em;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+    .main_header {
+        margin: 0.25em 0 0 0;
+        font-size: 3em;
+    }
+
+    .logo {
+        width: 10em;
+    }
+
+    .basic_description {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+}
+
+@media screen and (max-width: 599px) {
+}
